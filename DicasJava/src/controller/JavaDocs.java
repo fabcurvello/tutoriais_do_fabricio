@@ -30,4 +30,23 @@ public class JavaDocs {
         return num1 + num2;
     }
 
+/*
+ * CRIANDO DOCUMENTAÇÃO HTML A PARTIR DOS COMENTÁRIOS JAVADOC:
+ * 
+ * NO TERMINAL, DENTRO DA PASTA DO PROJETO JAVA:
+ * 
+ * Exemplo1:
+ * javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java
+ * 
+ * Cria uma pasta chamada docs, contendo um site html (iniciar no index.html),
+ * do conteúdo java da pasta src do projeto. 
+ * ---
+ * 
+ * Exemplo2:
+ * javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/controller/*.java
+ * 
+ * Cria uma pasta chamada docs, contendo um site html (iniciar no index.html),
+ * do conteúdo java da pasta src/controller do projeto.
+ */
+
 }

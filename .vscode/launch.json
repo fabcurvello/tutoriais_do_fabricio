@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploScanner",
+            "request": "launch",
+            "mainClass": "util.ExemploScanner",
+            "projectName": "CloneTutoriaisDoFabricio_5470b5e7"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -39,7 +46,7 @@
             "args": [
                 "Fabricio",
                 "Curvello",
-                "49",
+                "49"
             ],
             "projectName": "CloneTutoriaisDoFabricio_5470b5e7"
         },

@@ -1,0 +1,54 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "CloneTutoriaisDoFabricio_5470b5e7"
+        },
+        {
+            "type": "java",
+            "name": "JavaDocs",
+            "request": "launch",
+            "mainClass": "controller.JavaDocs",
+            "projectName": "CloneTutoriaisDoFabricio_5470b5e7"
+        },
+        {
+            "type": "java",
+            "name": "OpTernarioJava",
+            "request": "launch",
+            "mainClass": "controller.OpTernarioJava",
+            "projectName": "CloneTutoriaisDoFabricio_5470b5e7"
+        },
+        {
+            "type": "java",
+            "name": "SobreMim",
+            "request": "launch",
+            "mainClass": "controller.SobreMim",
+            "args": [
+                "Fabricio",
+                "Curvello",
+                "49",
+            ],
+            "projectName": "CloneTutoriaisDoFabricio_5470b5e7"
+        },
+        {
+            "type": "java",
+            "name": "TipoVarJava",
+            "request": "launch",
+            "mainClass": "controller.TipoVarJava",
+            "projectName": "CloneTutoriaisDoFabricio_5470b5e7"
+        }
+    ]
+}

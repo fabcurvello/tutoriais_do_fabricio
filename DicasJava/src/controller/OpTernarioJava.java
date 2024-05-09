@@ -9,5 +9,10 @@ public class OpTernarioJava {
         String resultado = a > b ? "Verdadeiro" : "Falso" ; // Operador ternário
 
         System.out.println(resultado);
+
+        //Outro exemplo:
+        double nota = 5.6;
+        String situacao = nota >= 7 ? "Aprovado" : nota >=5 ? "Recuperação" : "Reprovado" ;
+        System.out.println(situacao);
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ForVetor",
+            "request": "launch",
+            "mainClass": "controller.ForVetor",
+            "projectName": "tutoriais_do_fabricio_5de9d624"
+        },
+        {
+            "type": "java",
             "name": "OpTernarioJava",
             "request": "launch",
             "mainClass": "controller.OpTernarioJava",

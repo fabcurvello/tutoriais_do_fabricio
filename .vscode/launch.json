@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploBreakContinue",
+            "request": "launch",
+            "mainClass": "controller.ExemploBreakContinue",
+            "projectName": "tutoriais_do_fabricio_5de9d624"
+        },
+        {
+            "type": "java",
             "name": "ForVetor",
             "request": "launch",
             "mainClass": "controller.ForVetor",

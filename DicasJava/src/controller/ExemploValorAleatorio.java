@@ -3,8 +3,6 @@ package controller;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-import javax.swing.plaf.basic.BasicBorders.RadioButtonBorder;
-
 public class ExemploValorAleatorio {
 
     public static void main(String[] args) {

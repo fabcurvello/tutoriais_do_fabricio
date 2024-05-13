@@ -1,0 +1,11 @@
+Teclas de atalho e dicas Eclipse:
+
+main<CTRL><ESPAÇO> - Cria o método main()
+
+sisout<CTRL><ESPAÇO> - Cria System.out.println()
+
+<CTRL><SHIFT><F> - Indenta o código
+
+<ALT><Seta p cima ou p baixo> - Move um código selecionado p cima ou p baixo
+
+<ALT><SHIFT><R> - Renomeia objeto ou método, renomaendo todos os pontos onde existir este método ou objeto.

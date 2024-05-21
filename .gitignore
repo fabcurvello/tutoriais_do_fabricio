@@ -26,6 +26,7 @@ replay_pid*
 # Incluídos por mim
 settings.json
 
+# MAC OS
 .DS_Store
-DicasJava/.DS_Store
-DicasJava/src/.DS_Store
+src/.DS_Store
+._*.*

@@ -26,5 +26,10 @@ replay_pid*
 # Incluídos por mim
 settings.json
 
+
+# MAC OS
 .DS_Store
 src/.DS_Store
+._*.*
+
+

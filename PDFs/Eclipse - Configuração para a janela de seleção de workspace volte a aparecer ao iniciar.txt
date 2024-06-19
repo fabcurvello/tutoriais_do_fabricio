@@ -1,0 +1,58 @@
+--- ECLIPSE
+
+- Configuração para a janela de seleção de workspace volte a aparecer ao iniciar:
+
+Se você marcou a opção "Use this as the default and do not ask again" na janela de seleção de workspace do Eclipse e deseja que essa janela volte a aparecer ao iniciar o Eclipse, você precisará alterar as configurações do Eclipse para que ele pergunte novamente o local do workspace. Aqui está como você pode fazer isso:
+
+--- São 3 formas possíveis de confiurar:
+
+- Método 1: Modificar o arquivo de configuração do Eclipse
+- Método 2: Usar a Linha de Comando do Eclipse
+- Método 3: Usar as Preferências do Eclipse
+
+
+--- Método 1: Modificar o arquivo de configuração do Eclipse
+
+1. **Localize o Arquivo de Configuração**:
+   - Navegue até a pasta onde o Eclipse está instalado.
+   - Procure o arquivo `configuration` que geralmente está localizado em `eclipse/configuration/.settings`.
+
+2. **Edite o Arquivo**:
+   - Encontre o arquivo `org.eclipse.ui.ide.prefs` dentro da pasta `.settings`.
+   - Abra o arquivo `org.eclipse.ui.ide.prefs` com um editor de texto.
+
+3. **Modifique a Configuração**:
+   - Encontre a linha que diz `SHOW_WORKSPACE_SELECTION_DIALOG=false`.
+   - Altere essa linha para `SHOW_WORKSPACE_SELECTION_DIALOG=true`.
+   - Se a linha não existir, adicione `SHOW_WORKSPACE_SELECTION_DIALOG=true` no final do arquivo.
+
+4. **Salve e Reinicie o Eclipse**:
+   - Salve as alterações no arquivo e reinicie o Eclipse. A janela de seleção de workspace deve aparecer novamente na próxima inicialização.
+
+--- Método 2: Usar a Linha de Comando do Eclipse
+
+Outra maneira de forçar o Eclipse a perguntar pelo workspace é usar a linha de comando.
+
+1. **Abra um Terminal ou Prompt de Comando**:
+   - Navegue até o diretório onde o Eclipse está instalado.
+
+2. **Execute o Eclipse com a Opção `-clean`**:
+   - Execute o comando `eclipse -clean -clearPersistedState`.
+   - O parâmetro `-clean` limpa o cache do Eclipse e `-clearPersistedState` remove o estado persistido, incluindo a preferência para não perguntar pelo workspace.
+
+--- Método 3: Usar as Preferências do Eclipse
+
+Se você estiver dentro do Eclipse e quiser ajustar essa configuração:
+
+1. **Abra o Eclipse**.
+2. **Acesse as Preferências**:
+   - Vá para `Window` > `Preferences` (no Windows) ou `Eclipse` > `Preferences` (no macOS).
+3. **Navegue até Startup and Shutdown**:
+   - Em `General`, selecione `Startup and Shutdown`.
+4. **Configuração de Workspace**:
+   - Marque a opção `Prompt for workspace on startup`.
+5. **Aplicar e Reiniciar**:
+   - Clique em `Apply` e depois em `OK`.
+   - Reinicie o Eclipse. A janela de seleção de workspace deve aparecer novamente.
+
+Esses métodos devem ajudar você a reativar a janela de seleção de workspace ao iniciar o Eclipse.

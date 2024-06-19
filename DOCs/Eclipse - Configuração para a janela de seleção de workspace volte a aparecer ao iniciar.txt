@@ -4,7 +4,7 @@
 
 Se você marcou a opção "Use this as the default and do not ask again" na janela de seleção de workspace do Eclipse e deseja que essa janela volte a aparecer ao iniciar o Eclipse, você precisará alterar as configurações do Eclipse para que ele pergunte novamente o local do workspace. Aqui está como você pode fazer isso:
 
---- São 3 formas possíveis de confiurar:
+--- São 3 formas possíveis de configurar:
 
 - Método 1: Modificar o arquivo de configuração do Eclipse
 - Método 2: Usar a Linha de Comando do Eclipse

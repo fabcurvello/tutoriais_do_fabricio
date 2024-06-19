@@ -1,0 +1,58 @@
+Passo a passo para configurar GIT e GITHUB, além de sincronizar repositório MAVEN no Eclipse pelo Windows
+
+
+1 - Git Bash aberto:
+git config --global init.defaultBranch main
+
+Além de fazer os outros configs de init global
+
+
+2 - Projeto Maven criado no Eclipse
+
+3 - Configurando o GIT no Projeto do Eclipse
+	- Botão Direito no projeto / Team / Share Project
+
+	- Selecione Use or create repository in parente folder of project
+	- Create Repository
+	- marcar a opção com o nome do projeto
+	- finish
+
+4 - Adicionando tudo à Stage Area:
+	- Botão Direito no projeto / Team / Add to Index
+
+5 - Commit:
+	- Botão Direito no projeto / Team / Commit
+	- Digitar a mensagem de commit na janela Commit Message
+	- Commit 
+
+6 - No GitHub, criar repositório 
+
+7 - No GitHub, CRIAR NOVO TOKEN E SALVAR EM TXT A PARTE:
+	- Clicar na sua foto de perfil / Settings
+	- Developer settings (menu esquerdo lá embaixo)
+	- Personal access tokens / Tokens (classic)
+	- Generate new token (classic)
+
+	- Note: Preencha alguma anotação pelo motivo do token. Pode ser o nome do projeto ou repositório.
+	- Expiration: No Expiration
+	- Selecionar as caixas repo (todas) e delete repo
+
+	- OBS1: O código do token gerado só vai aparecer 1 vez.
+	- OBS2: Este código entra como senha ao autenticar o acesso do git ao GitHub pelo terminal ou pelo eclipse. 
+
+	- GENERATE TOKEN
+	- COPIE o token gerado e COLE em um Bloco de notas auxiliar.
+
+8 - No Eclipse, na tela do item 5, clicar em PUSH
+
+9 - Preecher:
+	- URI: O endereço do repositório
+	- Host: github.com
+	- Repository path: mesmo do URI, só que do usuário em diante
+
+	- User: login do github
+	- Pasword: cole aqui o TOKEN gerado no item 7
+
+	- janela Push Confirmation - Clicar em PUSH
+
+	- CLOSE

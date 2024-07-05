@@ -1,0 +1,10 @@
+Verbos HTTP:
+
+- GET -> Para recuperar informações de um servidor
+- PSOT -> Para enviar informações a um servidor
+- DELETE -> Para apagar algum recurso
+- PUT -> Para alterar uma entidade como um todo
+- PATCH -> Alterar um atributo da entidade
+
+Mais sobre HTTP em https://developer.mozilla.org/pt-BR/docs/Web/HTTP
+

@@ -1,0 +1,9 @@
+Endereço do Senai Maracanã:
+
+logradouro Rua São Francisco Xavier
+numero 417
+complemento Senai Maracanã
+bairro Tijuca
+cidade Rio de Janeiro
+estado RJ
+cep 20550-010
